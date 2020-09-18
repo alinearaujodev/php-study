@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário da Atividade 4</title>
+    </head>
+    <body style="background-color: rgb(228, 228, 228);">
+        <header>
+            <h1>Cadastro de Clientes</h1>
+            <p>Por Favor, preencha os campos obrigatórios para serem enviados corretamente.</p>
+        </header>
+        <main>
+            <section id="form">
+                <form name="cadcliente" action="https://localhost/atividade4.php" method="POST" enctype="application/x-www-form-urlencoded">
+                    <fieldset>
+                        <legend>Dados</legend>
+                        <table>     
+                            <tr>
+                                <th><label for="nome">Nome</label></th>
+                                <td><input type="text" id="nome" name="txtNome"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="cpf">CPF</label></th>
+                                <td><input type="text" id="cpf" name="txtCPF" maxlength="14"></td>
+                            </tr>
+                            <tr>
+                            <tr>
+                                <th><label for="nasc">Data de Nascimento</label></th>
+                                <td><input type="text" id="nasc" name="txtNasc"></td>
+                            </tr>
+                            <tr>
+                                <th><label>Sexo</label></th>
+                                <td><input type="radio" name="sexo" value="M">Masculino<br/></td>
+                                <td><input type="radio" name="sexo" value="F">Feminino<br/></td>
+                            </tr>
+                            <tr>
+                                <th><label for="endereco">Endereço</label></th>
+                                <td><textarea id="endereco" name="txtEndereco" cols="25" rows="4"></textarea></td>
+                            </tr>
+                            <tr>
+                                <th><label>Estado</label></th>
+                                <td>
+                                    <select name="listEstados">
+                                        <option value="BA">Bahia</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SC">Santa Catarina</option>
+                                    </select>
+                                </td>
+                            </tr>
+                                        
+                            <tr>
+                                <th><label>Áreas de Interesse</label></th>
+                                <td><input type="checkbox" name="cinema" value="true">Cinema</td>
+                                <td><input type="checkbox" name="esportes" value="true">Esportes</td>
+                                <td><input type="checkbox" name="musica" value="true">Música</td>
+                                <td><input type="checkbox" name="tec" value="true">Tecnologia</td>
+                            </tr>
+                            <tr>
+                                <th><label for="login">Login</label></th>
+                                <td><input type="text" id="login" name="txtLogin"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="senha">Senha</label></th>
+                                <td><input type="password" id="senha" name="txtSenha"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="confsenha">Confirmação de Senha</label></th>
+                                <td><input type="password" id="confsenha" name="txtCsenha"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" name="btnEnviar" value="Enviar">
+                                </td>
+                                <td>
+                                    <button type="reset">Limpar</button> 
+                                </td>
+                            </tr>
+                        </table>   
+                    </fieldset>   
+                </form>
+            </section>
+        </main>
+        <footer style="text-align: center;">
+            <hr>
+            <p>Copyright 2020</p>
+        </footer>
+    </body>
+</html>
