@@ -2,7 +2,7 @@
 
 Repositório com os projetos de estudo para a linguagem PHP. Além disso para aprender sobre o banco de dados MySQL, Wordpress e Programação Orientada a Objeto.
 
-> Status do Projeto :warning:
+> Status do Projeto: Em andamento :warning:
 
 ## Base de Estudo:
 
