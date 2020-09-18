@@ -18,10 +18,10 @@ Repositório com os projetos de estudo para a linguagem PHP. Além disso para ap
 
 ## Divisão do conteúdo:
 
+- mysql: pasta com tudo sobre o banco de dados mysql.
 - php: pastas com teorias, exercícios e projetos realizados na linguagem php.
-- php poo: pastas com teorias, exercícios e projetos realizados na linguagem php com orientada a objeto.
+- php-poo: pastas com teorias, exercícios e projetos realizados na linguagem php com orientada a objeto.
 - wordpress: pastas com projetos realizados em wordpress.
-- bd: pasta com tudo sobre banco de dados.
 
 ## Participante:
 

@@ -33,7 +33,6 @@
             echo "<br/> $y";
 
             // Variaveis de variaveis
-
             $z = "abc";
             $$z = "def";
 
