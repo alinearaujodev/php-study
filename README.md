@@ -1,4 +1,4 @@
-# PHP 
+# PHP, MySQL, Wordpress e Orientada a Objetos
 
 Repositório com os projetos de estudo para a linguagem PHP. Além disso para aprender sobre o banco de dados MySQL, Wordpress e Programação Orientada a Objeto.
 
