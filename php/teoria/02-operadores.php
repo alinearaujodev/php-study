@@ -38,6 +38,11 @@
 
             echo "<br/>O conteudo da variavel Z = $z" ;
             echo "<br/>A variavel ABC tem o conteudo = $abc";
+
+            // Operador Unário
+            // espressão ? verdadeiro : falso
+            $maior = $a > $b ? $a : $b; 
+
         ?>
     </body>
 </html>
