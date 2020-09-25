@@ -22,25 +22,17 @@
             }
 
             // ESTRUTURA DE CONTROLE SWITCH
-            $op = "+";
-            $n1 = 10;
-            $n2 = 5;
+            $sexo = isset($GET["sexo"])?$_GET["sexo"]:0;
     
-            switch ($op) {
-                case "+" : 
-                    echo "<br/> Soma = " . ($n1 + $n2);
+            switch ($sexo) {
+                case 1 : 
+                    echo "<br/>Sexo: Masculino";
                 break;
-                case "-":
-                    echo "<br/> Subtração = " . ($n1 - $n2);
-                break;
-                case "*":
-                    echo "<br/> Multiplicação = " . ($n1 * $n2);
-                break;
-                case "/":
-                    echo "<br/> Divisão = " . ($n1 / $n2);
+                case 2:
+                    echo "<br/>Sexo: Feminino";
                 break;
                 default:
-                    echo "Comando invalido!";
+                    echo "<br/>Sexo não informado!";
             }
 
         ?>
