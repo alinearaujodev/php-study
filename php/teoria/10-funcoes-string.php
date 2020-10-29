@@ -1,6 +1,6 @@
 <?php
 
-    // Função printf - escreve na tela, da linguagem C
+    // Função printf - escreve na tela, assim como a linguagem C
     $prod = "Leite";
     $preco = 4.15;
 
@@ -24,8 +24,16 @@
     echo $novo = trim($nome);
 
     // Função srt_word_count - Conta as palavra de uma string
-    $frase  = "Eu vou estudar PHP";
+    $frase  = "eu vou estudar PHP";
     $cont = str_word_count($frase, 0);
-    // 0 - retorna o numero exato de palavras / 1 - retorna cada palavra dentro de um array / 2 - retorna cada letra de uma plavara dentro do indice do array
+        // 0 - retorna o numero exato de palavras / 1 - retorna cada palavra dentro de um array / 2 - retorna cada letra de uma plavara dentro do indice do array
     echo $cont;
+
+    // Função ucwords - deixa as primeiras letras de todas as palavras em maiusculo
+    // Funcao ucfirst - deixa a primeira letra da primeira a palavra em maiusculo
+    echo ucwords($frase);
+    echo ucfirst($frase);
+
+    // Função stripos - procura a posicao de determinada string
+    echo $pos = stripos($frase, "php");
 ?>
